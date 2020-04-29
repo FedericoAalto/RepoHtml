@@ -41,7 +41,26 @@ body{
  h1 {
     margin-top: 90px;
     background-color: white;
-    border: 10px solid red;*/
+    border: 10px solid red;
+ }
+
+ */
+
+p:first-child b {
+    color:red;
+}
+ 
 
 
+.grid div:nth-child(3){
+    color: red;
+ }
+
+#miodiv .prova:nth-child(3) {
+    color: yellow;
+}
+
+ #miodiv2 {
+    color: green;
+  
  }
