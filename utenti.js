@@ -1,4 +1,5 @@
 $(document).ready(function(){
    // console.log("ciao");
-   alert("attenzione");
+   var cognome = $("#CognomeUtente").serialize();
+      alert("il tuo cognome è: " + cognome);
 });
