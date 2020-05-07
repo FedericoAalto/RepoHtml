@@ -7,53 +7,47 @@
     <title>login</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <style type="text/css"></style>
+    
 </head>
 
 <body>
-    
+<!--     
+    riga
+    colonna1 | colonna2  -->
+
     <div class="container">
         <div class="wrapper">
-            <form class="form-control">
-        <!--   <div class="row">
-                    <div class="col-sm"><label>Prova</label></div>
-                    <div class="col-sm">prima colonna</div>
-                    <div class="col-sm">seconda colonna</div>
-                    <div class="col-sm">terza colonna colonna</div>      
-            </div> 
-            <br>
-            <div class="row">
-                <div class="col-sm-3"><label>Nome</label></div> 
-                <input type="text" class="form-control" name="Nome" placeholder="Nome" required="" /> 
-            </div> 
-            <br> --> 
+            <form class="form-group" action="#" id="form">
+               <div class="row"></div>
+               <div class="row">
+                <div class="col-sm"><label>Nome</label></div>
+                <input type="text" class="form-control" name="nome" >
+            </div>
             <div class="row">
                 <div class="col-sm"><label>Cognome</label></div>
-                <select class="form-control" name="Cognome" placeholder="Cognome" id="CognomeUtente" >
-                    <option>ottena</option>
-                    </select>
+                <input type="text" class="form-control" name="cognome" /> 
             </div>
-           <!--  <br>
             <div class="row">
                 <div class="col-sm"><label>Email</label></div>
-                <input type="text" class="form-control" name="Email" placeholder="Email" required="" />
+                <input type="text" class="form-control" name="email" />
             </div>
-            <br>
             <div class="row">
                 <div class="col-sm"><label>Password</label></div>
-                <input type="password" class="form-control" name="Password" placeholder="Passowrd" required="" />
+                <input type="password" class="form-control" name="password" />
             </div>
-            <br>
-            <div class="row">
-                <button class="btn btn-lg btn-primary">Registrati</button>
-            </div>-->
+            
+                <input class="btn btn-primary" id="submit-button" type="submit" value="registrati">
+              
+            
             </form>
         </div>    
     </div>
-
+    
     <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="utenti.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js"></script>
 </body>
 
 
